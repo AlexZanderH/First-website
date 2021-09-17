@@ -24,22 +24,35 @@
             <!-- HEADER OF THE WEBSITE -->
                 <!-- Header sizes go from h1 to h6 -->
             <div class="container p-3 my-3 bg-dark text-white">
-                <h1 style="text-align:center;font-family:verdana" ; title="DON'T CLICK THE VIDEO!">Best Youtube Video to exist!</h1>
-                <p style="text-align:center">In my opinion...</p>
+                <h1 style="text-align:center;font-family:verdana" ; title="DON'T CLICK THE VIDEO!"><b>Best Youtube Video to exist!</b></h1>
+                <p style="text-align:center"><sub>In my opinion...</sub></p>
             </div>
             
             <!-- IMAGE -->
-                <!-- #This is absolute url, find out how to do relative url (HTML Attributes tab)-->
-            <img src="file:///Users/ajhong01/Desktop/pictures/yt_logo.png" class="mx-auto d-block" alt="Youtube Logo" style="width:30%">
+                <!-- #This is relative url, find out how to do absolute url (HTML Attributes tab)-->
+                <!-- The href makes it so the image itself is the link -->
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <img src="file:///Users/ajhong01/Desktop/pictures/yt_logo.png" class="mx-auto d-block rounded" alt="Youtube Logo" style="width:30%">
+            </a>
 
             <hr>
 
             <!-- CENTER TEXT -->
             <p style="font-size:150%" ; class="text-md-center">Have you ever gotten <mark>tired</mark> of Youtube video? Look no further! 
                 <br> This video, although not well known, will <mark>cure</mark> you from your bordem <mark>100% guarenteed!</mark></p>
+            
+            <!-- Subscriber count -->
+            <button type="button" class="btn btn-danger mx-auto d-block">
+                Subcribers <span class="badge badge-light">2,530,000</span>
+            </button>
+
+            <br>
+
             <!-- LINK -->
             <div style="text-align:center">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="font-size: 45px" class="text-success">Click here to watch the video!</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary" role="button">Link to the Video</a>
+                    <!-- This is the link connect to the text "Click here to watch the video!" -->
+                <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="font-size: 45px" class="text-success">Click here to watch the video!</a> -->
             </div>
 
             <hr>
@@ -63,8 +76,13 @@
             <dl>
                 <dt>Cereal</dt>
                 <dd>- Lucky Charms</dd>
+                <dd>- Honey Nut Cheerios</dd>
+                <dd>- Kellog's Special K with Red Berries</dd>
+
                 <dt>Milk</dt>
-                <dd>- Chocolate</dd>
+                <dd>- Chocolate Milk</dd>
+                <dd>- 2% Fat</dd>
+                <dd>- Almond Milk</dd>
             </dl>
             
             </blockquote>
